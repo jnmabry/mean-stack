@@ -1,1 +1,8 @@
 body { padding-top:30px; }
+
+
+/* Header*/ 
+
+.navbar-right {
+   padding-right: 15px;
+}

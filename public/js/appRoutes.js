@@ -18,6 +18,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'HelpController'
 		})
 
+		.when('/programs', {
+			templateUrl: 'views/programs.html',
+			controller: 'ProgramController'
+		})
+
 	$locationProvider.html5Mode(true);
 
 }]);
