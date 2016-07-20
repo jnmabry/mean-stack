@@ -23,6 +23,11 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'programController'
 		})
 
+		.when('/adopt', {
+			templateUrl: 'views/adopt.html',
+			controller: 'adoptController'
+		})
+
 	$locationProvider.html5Mode(true);
 
 }]);
