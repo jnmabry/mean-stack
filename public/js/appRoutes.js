@@ -28,6 +28,10 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'adoptController'
 		})
 
+		.when('/events', {
+			templateUrl: 'views/events.html',
+		})
+
 	$locationProvider.html5Mode(true);
 
 }]);
