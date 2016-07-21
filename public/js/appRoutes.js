@@ -32,6 +32,12 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			templateUrl: 'views/events.html',
 		})
 
+		.when('/donate', {
+			templateUrl: 'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EXCVRZNCNSH98',
+		})
+
+
 	$locationProvider.html5Mode(true);
 
 }]);
+

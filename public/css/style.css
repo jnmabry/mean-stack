@@ -16,10 +16,9 @@ h1 {
     line-height: 1em;
     text-transform: uppercase;
     color: #F7882F;
-    margin-top: 0px;
     margin: auto;
     overflow: hidden;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 h2 {
@@ -34,19 +33,19 @@ h2 {
     margin: auto;
     overflow: hidden;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .about-head {
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1.5em;
     font-weight: 400;
     width: 85%;
     margin: auto;
-    line-height: 1.3em;
+    line-height: 1.5em;
     margin-top: 25px;
     color: white;
 }
-
 
 
 /* Navigation */ 
@@ -90,11 +89,30 @@ h2 {
 	display: block;
 	background-size: cover;
   object-position: top;
-  padding-bottom: 120px;
+  padding-bottom: 140px;
   padding-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 30px;
   width: 100%;
 }
+
+
+/* About Page */
+
+#color-blocks{
+  background-color: #F7C331;
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+#color-blocks p {
+margin-top: 20px;
+/*font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 1.8em;
+letter-spacing: 1px;*/
+}
+
+
 
 
 /*.thumbnail img { min-height:152px; height:152px; }*/
@@ -108,4 +126,10 @@ h2 {
 
 .main-content{
 	padding-top: 60px;
+}
+
+/*FOOTER*/
+
+.footer{
+
 }
