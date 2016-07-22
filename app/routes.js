@@ -37,7 +37,7 @@ module.exports = function(app) {
 		
 
 		app.get('/users', function(req, res) {
-		  mongoose.model('users').find(function(err, users) {
+		  mongoose.model('User').find(function(err, users) {
 		    res.send(users);
 		  });
 		});
