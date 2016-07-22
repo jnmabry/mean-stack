@@ -13,8 +13,8 @@ var router = express.Router();
 var db = require('./config/db');
 
 var port = process.env.PORT || 8080; // set our port
-// mongoose.connect(db.url); // connect to our mongoDB database (commented out after you enter in your own credentials)
 
+// connect to our mongoDB database (commented out after you enter in your own credentials)
 mongoose.connect('mongodb://localhost/users',  function(err) {
 		if(err) {
 	     console.log("Failed connecting to Mongodb!");
@@ -32,18 +32,6 @@ app.use(bodyParser.urlencoded({ extended: true })); // parse application/x-www-f
 
 app.use(methodOverride('X-HTTP-Method-Override')); // override with the X-HTTP-Method-Override header in the request. simulate DELETE/PUT
 app.use(express.static(__dirname + '/public')); // set the static files location /public/img will be /img for users
-
-/*	var user = require(__dirname + '/app/models/newsletter.js');	
-	app.post('/users', function(req, res) {
-		new user({
-			name: req.body.name,
-			email: req.body.email
-		}).save(function(err,doc) {
-			if(err)  res.json(err);
-			else res.send('Successfully inserted! Click back to get back to the page');
-		});
-	});*/
-
 
 
 // routes ==================================================

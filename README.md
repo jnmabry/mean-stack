@@ -1,20 +1,13 @@
-# MEAN Stack Single Page Application Starter
+# AARF: Ashland Animal Rescue Fund - Final Project
 
-This is a repo for a starter appliation for a Single Page MEAN Stack application. Just download and install and you have a good foundation for building application. 
+This is a website revamp of http://aarfky.com/. It is still a work in progress, but you can get the overall idea of where I wanted to go with the look and feel of the website.  
 
-## Installation
-1. Download the repository
-2. Install npm modules: `npm install`
-3. Install bower dependencies `bower install`
-4. Start up the server: `node server.js`
-5. View in browser at http://localhost:8080
+## My Requirements
+1. Implemented Bootstrap to make site responsive
+2. Angular, CSS, HTML and Javascript for the front-end
+3. Built with Node.js, Express.js and Mongodb on the back-end
 
-Use this starter kit to build any MEAN stack application you like.
-
-If you have any questions or requests, email us at [chris@scotch.io](mailto:chris@scotch.io) and we'll keep updating this to make it perfect.
-
-## Future Additions
-- CRUD examples
-- Development and Production Environments
-- Link examples
-- Single Page AngularJS Animations
+## Difficult and Notable Things I Learned
+- Connected to an API using AJAX to populate dogs on the Adopt Page
+- Generated the HOW YOU CAN HELP section on the about page using an Object Array and ng-Repeat
+- Getting Mongodb running then using it to POST and GET data on the site
