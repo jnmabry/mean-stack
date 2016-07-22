@@ -17,6 +17,7 @@
 	<script src="libs/angular-route/angular-route.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://viralpatel.net/blogs/demo/jquery/jquery.shorten.1.0.js"></script>
+	<script src="https://use.fontawesome.com/9e3336a25f.js"></script>
 <!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.js"></script>
  -->
 
@@ -30,13 +31,14 @@
 
 
 </head>
-<body ng-app="meanApp">
+<body ng-app="meanApp" controller="mainController">
 <div class="container-fluid">
 	
 	<!-- HEADER -->
 	<nav class="navbar-fixed-top navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand mybrand" href="/about">AARF KY</a>
+			<a class="navbar-brand mybrand" href="/about">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:
+			3.4em; color:white;"></i>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="/about">About</a></li>
@@ -51,19 +53,24 @@
 	<!-- ANGULAR DYNAMIC CONTENT -->
 	<div ng-view class="main-content"></div>
 
+<!--FOOTER-->
 	<div class="text-center footer">
-			Contact Information
+			
+			<h3>Contact Information:</h3>
 
-			Postal address
+			<p><b>POSTAL ADDRESS:</b>
 			P.O. Box 2061
 			Ashland, KY  41105
-			Facility address
-			          3238 Rt. 5.,Ashland, KY 41101
-			Electronic mail
-			adopt4aarf@gmail.com
+
+			<b>FACILITY ADDRESS:</b>
+			3238 Rt. 5., Ashland, KY 41101
+			
+			<b>E-MAIL:</b> adopt4aarf@gmail.com</p>
 
 			 
 			<p>© 2016 Ashland Animal Rescue Fund, Inc. All rights reserved.</p>
+
+			<a href="https://www.facebook.com/AARFKY/"><i class="fa fa-facebook-official"  aria-hidden="true" style="font-size: 1em; color:#6B7A8F;"></i></a>
 
 		</div>	
 </div>
