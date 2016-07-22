@@ -1,14 +1,15 @@
 // grab the mongoose module
 var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
 
-var newsLetter = new mongoose.Schema({
+// define our mean-stack model
+var userSchema = new mongoose.Schema({
 	name: String,
 	email: String
 });
 
-var newsLetter = mongoose.model("NewsLetter",newsLetterSchema);
+var user = mongoose.model('user',userSchema);
 
 
-// define our mean-stack model
 // module.exports allows us to pass this to other files when it is called
-module.exports = model;
+module.exports = 'user';
