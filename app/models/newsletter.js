@@ -8,8 +8,8 @@ var userSchema = new mongoose.Schema({
 	email: String
 });
 
-var user = mongoose.model('user',userSchema);
+var users = mongoose.model('User',userSchema);
 
 
 // module.exports allows us to pass this to other files when it is called
-module.exports = 'user';
+module.exports = 'User';
