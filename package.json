@@ -7,6 +7,5 @@
     "fullpage.js": "^2.8.2",
     "method-override": "~2.0.2",
     "mongoose": "~3.6.20",
-    "petfinder": "^0.1.1"
   }
 }

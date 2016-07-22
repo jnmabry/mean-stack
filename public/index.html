@@ -8,7 +8,6 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
-<!-- 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.css" /> -->
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Rubik:400,400italic,900|Playfair+Display:400' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css"> <!-- custom styles -->
 
@@ -18,8 +17,6 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="http://viralpatel.net/blogs/demo/jquery/jquery.shorten.1.0.js"></script>
 	<script src="https://use.fontawesome.com/9e3336a25f.js"></script>
-<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.js"></script>
- -->
 
 	<!-- ANGULAR CUSTOM -->
 	<script src="js/controllers/mainCtrl.js"></script>
@@ -30,19 +27,23 @@
 	<script src="js/app.js"></script>
 
 
+
 </head>
+
+
 <body ng-app="meanApp" controller="mainController">
 <div class="container-fluid">
 	
+
+
 	<!-- HEADER -->
 	<nav class="navbar-fixed-top navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand mybrand" href="/about">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:
-			3.4em; color:white;"></i>
+			<a class="navbar-brand mybrand" href="/about">AARF KY</a><i class="fa fa-paw"  aria-hidden="true" style="font-size:3.4em; color:white;"></i>
 		</div>
+
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="/about">About</a></li>
-			<!-- <li><a href="/help">Help Out</a></li> -->
 			<li><a href="/adopt">Adopt</a></li>
 			<li><a href="/events">Events</a></li>
 			<li><a href="/programs">Programs</a></li>
@@ -50,10 +51,12 @@
 		</ul>
 	</nav>
 
+
 	<!-- ANGULAR DYNAMIC CONTENT -->
 	<div ng-view class="main-content"></div>
 
-<!--FOOTER-->
+
+	<!--FOOTER-->
 	<div class="text-center footer">
 			
 			<h3>Contact Information:</h3>
@@ -74,12 +77,6 @@
 
 		</div>	
 </div>
-
-<!-- FULLPAGE SCROLL -->
-<!-- <script>$(document).ready(function() {
-    $('#fullpage').fullpage();
-});</script>
- -->
 
 </body>
 </html>

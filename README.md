@@ -11,3 +11,10 @@ This is a website revamp of http://aarfky.com/. It is still a work in progress, 
 - Connected to an API using AJAX to populate dogs on the Adopt Page
 - Generated the HOW YOU CAN HELP section on the about page using an Object Array and ng-Repeat
 - Getting Mongodb running then using it to POST and GET data on the site
+
+## Things That I Need To Fix
+- Responsive views need to be tweaked at different sizes
+- Text and Layout for EVENTS and PROGRAMS needs edited
+- Getting Mongodb running then using it to POST and GET data on the site
+- Navbar needs to be collapsable after screen size goes down to mobile 
+- Add photos or icons to the HOW YOU CAN HELP section items
