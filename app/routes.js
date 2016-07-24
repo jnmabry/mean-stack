@@ -49,17 +49,3 @@ module.exports = function(app) {
 	
 	
 };
-
-
-
-/*
-	app.post('/newsLetter', function(req, res) {
-			var newsLetter = ({
-				name: req.body.name,
-				email: req.body.email
-			}).save(function(err,doc) {
-				if(err)  res.json(err);
-				else res.send('Successfully inserted! Click back to get back to the page');
-			});
-	});
-*/
