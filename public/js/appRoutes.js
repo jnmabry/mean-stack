@@ -30,6 +30,8 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 
 		.when('/events', {
 			templateUrl: 'views/events.html',
+			controller: 'eventsController'
+
 		})
 
 		.when('/donate', {
